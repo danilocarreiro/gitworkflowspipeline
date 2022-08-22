@@ -6,7 +6,7 @@ import (
 
 func TestAverage(t *testing.T) {
 	avg := Average(10, 10, 10)
-	expected := 10.00
+	expected := 11.00
 
 	if avg != expected {
 		t.Errorf("The result expected is: %.2f  value returned: %.2f", expected, avg)
