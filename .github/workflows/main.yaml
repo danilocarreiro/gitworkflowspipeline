@@ -1,4 +1,4 @@
-name: ci
+name: Main Unit test
 on:
   push:
     branches:
